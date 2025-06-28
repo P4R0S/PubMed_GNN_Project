@@ -255,40 +255,41 @@ Raw PubMed Data → Preprocessing → Feature Scaling → GAT Training
 ### Core Papers & Methods
 
 #### Graph Neural Networks
-- **Veličković, P., et al. (2018)**. "Graph Attention Networks." *International Conference on Learning Representations (ICLR)*. 
+- **Veličković, P., Cucurull, G., Casanova, A., Romero, A., Liò, P., Bengio, Y. (2018)**. "Graph Attention Networks." *International Conference on Learning Representations (ICLR)*.
   - *Implementation*: Core GAT architecture, multi-head attention mechanism
-- **Kipf, T. N., & Welling, M. (2017)**. "Semi-Supervised Classification with Graph Convolutional Networks." *International Conference on Learning Representations (ICLR)*.
-  - *Reference*: Graph convolution foundations and semi-supervised learning approach
 
 #### Dataset & Graph Construction
-- **Sen, P., et al. (2008)**. "Collective Classification in Network Data." *AI Magazine, 29(3), 93-106*.
+- **Sen, P., Namata, G., Bilgic, M., Getoor, L., Gallagher, B., Eliassi-Rad, T. (2008)**. "Collective Classification in Network Data." *AI Magazine, 29(3), 93-106*.
   - *Implementation*: PubMed dataset structure, citation network construction
-- **Yang, Z., Cohen, W., & Salakhudinov, R. (2016)**. "Revisiting Semi-Supervised Learning with Graph Embeddings." *International Conference on Machine Learning (ICML)*.
-  - *Reference*: Planetoid dataset framework and preprocessing methodologies
 
-#### Explainable AI for Graphs
-- **Ying, Z., et al. (2019)**. "GNNExplainer: Generating Explanations for Graph Neural Networks." *Advances in Neural Information Processing Systems (NeurIPS)*.
+#### Explainable AI & Feature Attribution
+- **Adadi, A., Berrada, M. (2018)**. "Peeking Inside the Black-Box: A Survey on Explainable Artificial Intelligence (XAI)." *IEEE Access, 6, 52138-52160*.
+  - *Reference*: XAI theoretical foundations and survey of explainability methods
+
+- **Sundararajan, M., Taly, A., Yan, Q. (2017)**. "Axiomatic Attribution for Deep Networks." *International Conference on Machine Learning (ICML), pp. 3319-3328*.
+  - *Implementation*: Gradient-based feature importance calculation (Gradient×Input method)
+
+- **Yuan, H., Yu, H., Gui, S., Ji, S. (2023)**. "Explainability in Graph Neural Networks: A Taxonomic Survey." *IEEE Transactions on Pattern Analysis and Machine Intelligence, 45(5), 5782-5799*.
+  - *Reference*: Comprehensive survey of GNN explainability methods
+
+#### Graph Neural Network Explainability
+- **Ying, R., Bourgeois, D., You, J., Zitnik, M., Leskovec, J. (2019)**. "GNNExplainer: Generating Explanations for Graph Neural Networks." *Advances in Neural Information Processing Systems (NeurIPS), pp. 9240-9251*.
   - *Inspiration*: Explainability framework design, attention-based explanations
-- **Pope, P. E., et al. (2019)**. "Explainability Methods for Graph Convolutional Neural Networks." *IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*.
-  - *Reference*: Feature attribution methods for graph neural networks
 
-#### Feature Attribution & Interpretability
-- **Simonyan, K., Vedaldi, A., & Zisserman, A. (2014)**. "Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps." *Workshop at International Conference on Learning Representations (ICLR)*.
-  - *Implementation*: Gradient-based feature importance calculation
-- **Sundararajan, M., Taly, A., & Yan, Q. (2017)**. "Axiomatic Attribution for Deep Networks." *International Conference on Machine Learning (ICML)*.
-  - *Reference*: Theoretical foundations for feature attribution methods
+- **Vig, J., Belinkov, Y. (2019)**. "Analyzing the Structure of Attention in a Transformer Language Model." *Proceedings of the 2019 ACL Workshop BlackboxNLP, pp. 63-76*.
+  - *Reference*: Attention analysis and visualization methodologies
+
+#### Feature Selection & Optimization
+- **Guyon, I., Elisseeff, A. (2003)**. "An Introduction to Variable and Feature Selection." *Journal of Machine Learning Research, 3, 1157-1182*.
+  - *Implementation*: Feature selection methodology and evaluation metrics
 
 ### Technical Libraries & Frameworks
-- **PyTorch Geometric Documentation**. Fey, M., & Lenssen, J. E. (2019). "Fast Graph Representation Learning with PyTorch Geometric."
+- **Fey, M., Lenssen, J.E. (2019)**. "Fast Graph Representation Learning with PyTorch Geometric." *ICLR Workshop on Representation Learning on Graphs and Manifolds*.
   - *Implementation*: Graph data structures, GAT layers, dataset loading
-- **NetworkX Documentation**. Hagberg, A., Schult, D., & Swart, P. (2008). "Exploring Network Structure, Dynamics, and Function using NetworkX."
-  - *Implementation*: Graph visualization, network analysis, attention pattern display
 
-### Additional Resources
-- **Bronstein, M. M., et al. (2017)**. "Geometric Deep Learning: Going beyond Euclidean data." *IEEE Signal Processing Magazine, 34(4), 18-42*.
-  - *Context*: Theoretical background for geometric deep learning
-- **Hamilton, W. L. (2020)**. "Graph Representation Learning." *Synthesis Lectures on Artificial Intelligence and Machine Learning, 14(3), 1-159*.
-  - *Reference*: Comprehensive graph learning methodology
+### Medical Data & Applications
+- **Johnson, A.E., Pollard, T.J., Shen, L., et al. (2016)**. "MIMIC-III, a freely accessible critical care database." *Scientific Data, 3, 160035*.
+  - *Reference*: Medical data processing and healthcare AI applications
 
 ---
 
