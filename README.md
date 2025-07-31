@@ -314,7 +314,7 @@ In accordance with academic transparency requirements, the following sections ut
 
 ### Analysis Framework
 - **Feature Selection Logic** (AI-assisted): Cumulative importance calculation and threshold determination
-- **Explainability Framework Design** (AI-assisted): Multi-perspective analysis approach and attention pattern interpretation methods
+- **Explainability Framework Design** (AI-assisted): Multi-perspective analysis approach and attention pattern interpretation methods.
 
 ---
 
